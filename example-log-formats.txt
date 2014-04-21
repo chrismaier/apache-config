@@ -1,0 +1,5 @@
+LogFormat "\"%a\" \"%B\" \"%b\" \"%D\" \"%h\" \"%H\" \"%m\" \"%p\" \"%P\" \"%q\" \"%s\" \"%t\" \"%T\" \"%u\" \"%U\" \"%X\"" accesslong
+
+ "\"%{SSL_PROTOCOL}x\" \"%{SSL_CIPHER}x\" \"%a\" \"%B\" \"%b\" \"%D\" \"%h\" \"%H\" \"%m\" \"%p\" \"%P\" \"%q\" \"%s\" \"%t\" \"%T\" \"%u\" \"%U\" \"%X\""
+
+"%t %h %{SSL_PROTOCOL}x %{SSL_CIPHER}x \"%r\" %b"
